@@ -1,0 +1,6 @@
+Revision history for Perl extension DB::AsKVS.
+
+0.01  Wed May 29 10:37:52 2013
+	- original version; created by h2xs 1.23 with options
+		-A -X -n DB::AsKVS
+      New Creation
