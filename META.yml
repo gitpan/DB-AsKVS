@@ -21,4 +21,4 @@ requires:
   Cache::Memcached::Fast: 0.21
   DBI: 1.627
   String::CRC32: 1.4
-version: 0.01
+version: 0.02

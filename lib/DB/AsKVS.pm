@@ -4,9 +4,9 @@ use warnings;
 use String::CRC32;
 use DBI;
 use Cache::Memcached::Fast;
-use Data::Dumper::Concise;
+#use Data::Dumper::Concise;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new{
 	my ($this, $p) = @_;
@@ -165,7 +165,7 @@ DB::AsKVS - This module is using RDBMS as KVS.
          host => 'localhost',
          port => 3306,
          uid => 'root',
-         pwd => 'password,
+         pwd => 'password',
          opt => {},
       },
    ],
